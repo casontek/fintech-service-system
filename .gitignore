@@ -12,10 +12,23 @@
 
 # Gradle
 .gradle/
+**/.gradle/
 build/
+**/build/
 *.log
 *.lock
 .gradle-cache/
+**/.gradle-cache/
+
+### IntelliJ IDEA ###
+.idea
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
 
 # IDEs
 /.idea/
