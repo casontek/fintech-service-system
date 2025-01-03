@@ -1,0 +1,24 @@
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Gradle
+.gradle/
+build/
+*.log
+*.lock
+.gradle-cache/
+
+# IDEs
+/.idea/
+/.idea/*
+
+.DS_Store
